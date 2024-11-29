@@ -29,7 +29,7 @@ const Navbar = () =>{
 ]
     return(
          
-        <ul className ={` ${inter.className}  w-[100%] bg-recentbackground flex items-center justify-end h-[84px] font-medium text-[16px]
+        <ul className ={` ${inter.className} w-[100%] bg-recentbackground flex items-center justify-end h-[84px] font-medium text-[16px]
            space-x-2`}>
             {
                 navitems.map((item ,i)=>(

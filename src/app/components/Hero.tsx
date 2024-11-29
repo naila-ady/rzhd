@@ -10,10 +10,10 @@ const heebo = Heebo({subsets:['latin']})
 
 export default function Hero() {
     return (
-      <div className=" w-[auto] p-6 md:w-[1030px] md:h-[400px] mx-auto flex flex-col-reverse
-       md:flex-row item-center justify-between">
-        {/* text div */}
-        <div className="md:w-[512px] md:w-[412px] md:h-[305px] flex flex-col gap-2 md:justify-between
+      <div className="my-[66px] w-[auto] p-6 md:w-[1030px] md:h-[400px] mx-auto flex flex-col-reverse
+       md:flex-row items-center justify-between">
+              {/* text div */}
+        <div className="w-[512px] md:w-[412px] md:h-[305px] flex flex-col gap-2 md:justify-between
          items-start sm:justify-evenly ">
           <h1 className={`${heebo.className} sm:text-[28px] md:text-[48px] text-mypink font-bold`}>TRENDY TREADS<br/>Walk and Carry!</h1>
         <p className={`${heebo.className} text-[18px] font-normal text-myblack`}>Step into elegance with our stunning collection of **fancy sandals** and **luxury bags**.
@@ -26,12 +26,12 @@ export default function Hero() {
         </div>
         <div>
           {/* image div */}
-        <div className="w-[500px] h-[400px] relative">
+         <div className="w-[500px] h-[400px] relative">
             <Image src={img} alt={"heroimage"} width={500} height={500}/>
-            <div className="bg-heroeclipse w-[490px] h-[204px] absolute -z-10 top-2 right-2"></div>
+            <div className="bg-heroeclipse w-[290px] h-[290px] absolute -z-10 top-2 right-2"></div>
 
             </div>
-        
+         
         </div>
     
   
